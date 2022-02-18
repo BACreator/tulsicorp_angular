@@ -1,0 +1,9 @@
+.header_title h3{
+	margin-bottom: unset;
+	color: #4d7b19;
+}
+.header_title span{
+	color: #5C4033;
+    font-size: 12px;
+}
+.bg_color{background-color: #e2e2e2 !important;}

@@ -1,0 +1,11 @@
+<!-- Search form -->
+<div class="container">
+    <div class="active-pink-4 mb-4 mt-4">
+      <input class="form-control form_search" autocomplete="off" type="text" 
+      placeholder="Search" aria-label="Search" id="search" 
+      (keyup)="onKey($event)" [(ngModel)]="searchfield">
+    </div>
+    <ul *ngFor="let medlist of list">
+      <li class="medname">{{medlist.itemName}}</li>
+    </ul>
+</div><!-- End of Search form -->
