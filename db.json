@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "id": 1
+    },
+    {
+      "fullname": "madhu",
+      "email": "madhu@gmail.com",
+      "password": "madhuvanthi",
+      "id": 2
+    },
+    {
+      "fullname": "SupriyaA",
+      "email": "supriyamadhu@gmail.com",
+      "password": "ManjuaA",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
